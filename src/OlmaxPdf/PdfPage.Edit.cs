@@ -1,6 +1,6 @@
 ﻿using PDFiumCore;
 
-namespace DtronixPdf
+namespace OlmaxPdf
 {
     public partial class PdfPage
     {

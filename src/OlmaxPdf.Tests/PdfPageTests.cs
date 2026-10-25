@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using SixLabors.ImageSharp;
 
-namespace DtronixPdf.Tests
+namespace OlmaxPdf.Tests
 {
     public class PdfPageTests
     {

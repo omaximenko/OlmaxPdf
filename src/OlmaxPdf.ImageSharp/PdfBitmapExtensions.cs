@@ -1,7 +1,7 @@
 ﻿using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp;
 
-namespace DtronixPdf.ImageSharp
+namespace OlmaxPdf.ImageSharp
 {
     public static class PdfBitmapExtensions
     {

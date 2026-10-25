@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using PDFiumCore;
 
-namespace DtronixPdf
+namespace OlmaxPdf
 {
 
     public class PdfiumManager

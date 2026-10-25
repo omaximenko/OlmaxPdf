@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace DtronixPdf
+namespace OlmaxPdf
 {
     public class PdfActionSynchronizer
     {

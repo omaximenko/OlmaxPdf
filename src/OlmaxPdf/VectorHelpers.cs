@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Runtime.Intrinsics;
 
-namespace DtronixPdf;
+namespace OlmaxPdf;
 
 internal static class VectorHelpers
 {

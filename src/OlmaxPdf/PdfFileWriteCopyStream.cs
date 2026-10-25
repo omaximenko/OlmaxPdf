@@ -2,7 +2,7 @@
 using System.IO;
 using PDFiumCore;
 
-namespace DtronixPdf
+namespace OlmaxPdf
 {
     class PdfFileWriteCopyStream : FPDF_FILEWRITE_
     {

@@ -11,8 +11,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DtronixPdf.ImageSharp\DtronixPdf.ImageSharp.csproj" />
-    <ProjectReference Include="..\DtronixPdf\DtronixPdf.csproj" />
+    <ProjectReference Include="..\OlmaxPdf.ImageSharp\OlmaxPdf.ImageSharp.csproj" />
+    <ProjectReference Include="..\OlmaxPdf\OlmaxPdf.csproj" />
   </ItemGroup>
 
   <ItemGroup>

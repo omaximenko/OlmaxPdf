@@ -3,11 +3,11 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.Intrinsics;
 using System.Threading.Tasks;
-using DtronixPdf;
-using DtronixPdf.ImageSharp;
+using OlmaxPdf;
+using OlmaxPdf.ImageSharp;
 using SixLabors.ImageSharp;
 
-namespace DtronixPdfBenchmark
+namespace OlmaxPdfBenchmark
 {
     class Program
     {

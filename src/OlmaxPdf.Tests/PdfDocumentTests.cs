@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace DtronixPdf.Tests
+namespace OlmaxPdf.Tests
 {
     public class PdfDocumentTests
     {

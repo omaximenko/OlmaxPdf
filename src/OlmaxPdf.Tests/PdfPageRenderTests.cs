@@ -3,13 +3,13 @@ using System.IO;
 using System.Net.Mime;
 using System.Threading;
 using System.Threading.Tasks;
-using DtronixPdf.ImageSharp;
+using OlmaxPdf.ImageSharp;
 using NUnit.Framework;
 using PDFiumCore;
 using SixLabors.ImageSharp.Formats.Png;
 using SixLabors.ImageSharp.PixelFormats;
 
-namespace DtronixPdf.Tests
+namespace OlmaxPdf.Tests
 {
     public class PdfPageRenderTests
     {

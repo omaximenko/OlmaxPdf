@@ -2,7 +2,7 @@
 using System.Threading;
 using PDFiumCore;
 
-namespace DtronixPdf
+namespace OlmaxPdf
 {
     public record class PdfPageRenderConfig
     {

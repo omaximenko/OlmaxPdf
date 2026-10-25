@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using PDFiumCore;
 
-namespace DtronixPdf
+namespace OlmaxPdf
 {
     public partial class PdfPage : IDisposable
     {

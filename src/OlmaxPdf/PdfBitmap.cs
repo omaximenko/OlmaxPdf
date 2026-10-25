@@ -2,7 +2,7 @@
 using System.Runtime.Intrinsics;
 using PDFiumCore;
 
-namespace DtronixPdf
+namespace OlmaxPdf
 {
     public class PdfBitmap : IDisposable
     {

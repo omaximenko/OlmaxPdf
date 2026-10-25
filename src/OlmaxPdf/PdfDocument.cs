@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using PDFiumCore;
 
 
-namespace DtronixPdf
+namespace OlmaxPdf
 {
     public class PdfDocument : IDisposable
     {
