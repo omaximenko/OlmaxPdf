@@ -20,9 +20,6 @@ jobs:
         with:
           dotnet-version: 10.x
 
-      - name: dotnet build
-        run: dotnet build src -c Release
-
       - name: dotnet pack
         run: dotnet pack src/OlmaxPdf -c Release -o ./artifacts
         
