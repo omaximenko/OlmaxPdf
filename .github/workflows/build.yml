@@ -24,8 +24,8 @@ jobs:
         run: dotnet build src -c Release
 
       - name: dotnet pack
-        run: dotnet pack src/OlmaxPdf -c Release -o ./artifacts --no-build  
-
+        run: dotnet pack src/OlmaxPdf -c Release -o ./artifacts
+        
       # Use the ambient GitHub token to login to NuGet and retrieve an API key
       - name: NuGet login (OIDC → temp API key)
         uses: NuGet/login@v1
