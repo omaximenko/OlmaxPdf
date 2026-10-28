@@ -7,10 +7,9 @@ namespace OlmaxPdf.ImageSharp
     {
         public static unsafe Image<Bgra32> GetImage(this PdfBitmap bitmap)
         {
-            return Image.WrapMemory<Bgra32>(
-                bitmap.Pointer.ToPointer(),
-                (int)(bitmap.Viewport[2] - bitmap.Viewport[0]),
-                (int)(bitmap.Viewport[3] - bitmap.Viewport[1]));
+            var width = bitmap.Width;
+            var height = bitmap.Height;
+            return Image.WrapMemory<Bgra32>(Configuration.Default, (void*)bitmap.Pointer, width * height * 4, width, height);
         }
 
     }
